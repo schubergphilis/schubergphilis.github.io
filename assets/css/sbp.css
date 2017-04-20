@@ -1,0 +1,42 @@
+h1 {
+    /*font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;*/
+    /*font-style: normal;*/
+    /*font-weight: 700;*/
+    /*font-size: 30px;*/
+    /*color: rgb(35, 35, 35);*/
+    /*line-height: 33px;*/
+    /*letter-spacing: -1px;*/
+    text-transform: uppercase;
+}
+
+.sbplogo {
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+.sbplogo img {
+    width: 100px;
+}
+
+#footer > .inner .copyright {
+    font-size: 0.75em;
+}
+
+#footer {
+    background: #4cbae9;
+    color: white !important;
+}
+
+#footer * {
+    color: white !important;
+}
+
+#footer .icon.style2 {
+    border-color: white;
+}
+#footer .icon.style2:hover {
+    background-color: white;
+    border-color: #4cbae9;
+    color: #4cbae9 !important;
+}
