@@ -41,11 +41,14 @@ collections:
   categories:
     output: true
     permalink: /:name
-
+  projects:
+    output: false
+  cookbooks:
+    output: false
 
 defaults:
   - scope:
       path: ""
       type: categories
     values:
-      layout: default
+      layout: page
