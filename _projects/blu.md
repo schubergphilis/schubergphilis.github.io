@@ -1,17 +1,14 @@
 ---
-name: Blu
+name: data-migrator
 description: >
-  Blu is a new way to leverage Chef methods in Windows using PowerShell. Blu is
-  a set of Chef client-side tools, following all the methods and concepts,
-  accepted by the Chef community.
-href: http://backslashblu.readthedocs.io/en/latest/powershell.html
-repo: https://github.com/schubergphilis/blu
-doc: http://backslashblu.readthedocs.io/en/latest/powershell.html
-image: /images/pic02.jpg
+  A declarative data-migration package for system architecture evolution.
+href: http://data-migrator.readthedocs.io/en/latest/
+repo: https://github.com/schubergphilis/data-migrator
+doc: http://data-migrator.readthedocs.io/en/latest/
+image: /images/pic05.jpg
 author:
-  - anoosh
+  - ilja
 category:
-  - iac
-  - chef
-  - powershell
+  - development
+  - other
 ---
