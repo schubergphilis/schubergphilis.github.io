@@ -35,3 +35,17 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+## The shit
+collections:
+  categories:
+    output: true
+    permalink: /:name
+
+
+defaults:
+  - scope:
+      path: ""
+      type: categories
+    values:
+      layout: default
