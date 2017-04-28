@@ -4,7 +4,7 @@ caption: >
   Our security projects.
 layout: page
 image: /images/pic04.jpg
-
+order: 3
 ---
 <section class="tiles">
 

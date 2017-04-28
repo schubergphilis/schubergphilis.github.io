@@ -4,6 +4,7 @@ caption: >
   A mix of various projects we are proud of.
 layout: page
 image: /images/pic04.jpg
+order: 99
 
 ---
 

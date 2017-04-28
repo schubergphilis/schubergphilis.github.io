@@ -4,7 +4,7 @@ caption: >
   Our operational support projects.
 layout: page
 image: /images/pic04.jpg
-
+order: 4
 ---
 <section class="tiles">
 These are some of our operational support tools and projects.

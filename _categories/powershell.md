@@ -4,7 +4,7 @@ caption: >
   Our powershell projects
 layout: page
 image: /images/pic04.jpg
-
+order: 5
 ---
 <section class="tiles">
 These are tools and projects for powershell.

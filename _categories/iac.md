@@ -4,6 +4,7 @@ caption: >
   Our work on infrastructure.
 layout: page
 image: /images/pic03.jpg
+order: 1
 
 ---
   <section class="tiles">

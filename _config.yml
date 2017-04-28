@@ -21,19 +21,26 @@ description: > # this means to ignore newlines until "baseurl:"
   this site you can find references to our work.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://schubergphilis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: schubergphilis
-linkedin_username: schuberg-philis
-facebook_username: schubergphilis
-youtube_username: schubergphilis
-github_username:  schubergphilis
-instagram_username:  schubergphilis
+twitter:
+  username: schubergphilis
+linkedin:
+  username: schuberg-philis
+facebook:
+  username: schubergphilis
+youtube:
+  username: schubergphilis
+github:
+  username:  schubergphilis
+instagram:
+  username:  schubergphilis
 google_analytics: UA-2409001-11
 
 # Build settings
 markdown: kramdown
 gems:
 #  - jekyll-feed
-  - jekyll-sitemap
+#  - jekyll-sitemap
+# plugins: [jekyll-seo-tag]
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -6,7 +6,7 @@ title: Schuberg Philis Open Source
 caption: >
   <a href="https://schubergphilis.com/">Schuberg Philis</a> uses supports and
   contributes to open source. We love to share. On this site you can find many
-  references to our work. If you want to read more, see our 
+  references to our work. If you want to read more, see our
   <a href="https://cupfighter.net">blog</a>.
 layout: page
 
@@ -15,7 +15,8 @@ layout: page
 We contribute in the following area's:
 
 <section class="tiles">
-  {% for item in site.categories %}
+{% assign items = (site.categories | sort: "order") %}
+{% for item in items %}
     <article class="style1">
       <span class="image">
       <img src="{{ item.image }}" alt="" />

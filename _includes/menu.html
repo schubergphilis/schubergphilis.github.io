@@ -4,7 +4,8 @@
     <ul>
         <li><a href="/index.html">Home</a></li>
         <!-- categories -->
-      {% for item in site.categories %}
+      {% assign items = (site.categories | sort: "order") %}
+      {% for item in items %}
         <li><a href="{{ item.url }}">{{ item.title }}</a></li>
       {% endfor %}
         <!-- _data/menu.yml -->
