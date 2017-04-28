@@ -35,6 +35,15 @@ instagram:
   username:  schubergphilis
 google_analytics: UA-2409001-11
 
+logo: /images/sbplogo.png
+social:
+  name: Schuberg Philis
+  links:
+    - https://twitter.com/schubergphilis
+    - https://www.facebook.com/schubergphilis
+    - https://www.linkedin.com/in/schuberg-philis
+    - https://github.com/schubergphilis
+
 # Build settings
 markdown: kramdown
 gems:
