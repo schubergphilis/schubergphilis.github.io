@@ -1,2 +1,12 @@
 - name: Home
-  href: index.html
+  href: /index.html
+- name: Infrastructure as code
+  href: /iac.html
+- name: Chef
+  href: /chef.html
+- name: Powershell
+  href: /powershell.html
+- name: Operations
+  href: /ops.html
+- name: Security
+  href: /security.html
