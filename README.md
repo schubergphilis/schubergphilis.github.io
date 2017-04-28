@@ -17,3 +17,26 @@ New categories require an entry in the categories folder and the menu file.
 
 ## Contribute
 Just Fork and file a pull request.
+
+## How to run this locally?
+Make sure you have Jekyll installed. For that you need to install gpg and rvm.
+Simple instructions are:
+```
+$ brew install gpp
+$ command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
+$ \curl -L https://get.rvm.io | bash -s stable
+$ rm $HOME/.profile # be aware that rvm is quite aggressively installing itself
+$ source "$HOME/.rvm/scripts/rvm"
+$ rvm install ruby-2.4.1
+$ rvm gemset use global
+$ gem install jekyll bundler  # the stuff
+```
+
+If you have everything setup, there are two magic commands
+```
+$  bundle exec jekyll serve --incremental   # run a local server
+```
+and
+```
+$ bundle exec jekyll build # rebuild the whole site
+```
