@@ -2,8 +2,14 @@
   <nav id="menu">
     <h2>Menu</h2>
     <ul>
+        <li><a href="/index.html">Home</a></li>
+        <!-- categories -->
+      {% for item in site.categories %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+        <!-- _data/meny.yml -->
       {% for item in site.data.menu %}
-        <li><a href="{{ item.href }}">{{ item.name }}</a></li>
+        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
       {% endfor %}
     </ul>
   </nav>
