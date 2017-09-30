@@ -9,6 +9,10 @@ h1 {
     text-transform: uppercase;
 }
 
+#header {
+    padding-top: 3em;
+}
+
 .sbplogo {
     text-decoration: none;
     border: none;
@@ -19,8 +23,17 @@ h1 {
     width: 100px;
 }
 
+.page-caption {
+    max-width: 480px;
+}
+
+.tiles > article {
+    margin-bottom: 1.5em;
+}
+
 #footer > .inner .copyright {
     font-size: 0.75em;
+    padding-left: 2em;
 }
 
 #footer {

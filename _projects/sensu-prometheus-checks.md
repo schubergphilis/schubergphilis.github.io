@@ -4,7 +4,7 @@ description: >
   Sensu plugin designed to query prometheus data output from node-exporter
 href: https://github.com/schubergphilis/sensu-plugins-prometheus-checks
 repo: https://github.com/schubergphilis/sensu-plugins-prometheus-checks
-image: /images/pic08.jpg
+image: /images/pic02.jpg
 author:
   - michael
   - crazybus

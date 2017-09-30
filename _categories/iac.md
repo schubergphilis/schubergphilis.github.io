@@ -3,7 +3,7 @@ title: Infrastructure as Code
 caption: >
   Our work on infrastructure.
 layout: page
-image: /images/pic03.jpg
+image: /images/sheep03.png
 order: 1
 
 ---

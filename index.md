@@ -12,8 +12,6 @@ layout: page
 
 ---
 
-We contribute in the following area's:
-
 <section class="tiles">
 {% assign items = (site.categories | sort: "order") %}
 {% for item in items %}
@@ -32,8 +30,7 @@ We contribute in the following area's:
 </section>
 
 <br/>
-<h3>Projects</h3>
-Some of the project we are proud of:
+<h3>Some of the projects we are proud of:</h3>
 <section class="tiles">
 {% assign items = (site.projects | where: "category" , "proud") %}
 {% for item in items %}

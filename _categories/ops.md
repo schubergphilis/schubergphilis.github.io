@@ -3,7 +3,7 @@ title: Operations
 caption: >
   Our operational support projects.
 layout: page
-image: /images/pic04.jpg
+image: /images/sheep03.png
 order: 4
 ---
 <section class="tiles">
