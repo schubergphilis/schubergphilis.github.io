@@ -7,7 +7,7 @@ caption: >
   <a href="https://schubergphilis.com/">Schuberg Philis</a> uses supports and
   contributes to open source. We love to share. On this site you can find many
   references to our work. If you want to read more, see our
-  <a href="https://cupfighter.net">blog</a>.
+  <a href="https://medium.com/schubergphilis">blog</a>.
 layout: page
 
 ---
