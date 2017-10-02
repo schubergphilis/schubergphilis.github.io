@@ -3,7 +3,7 @@ title: Other
 caption: >
   A mix of various projects we are proud of.
 layout: page
-image: /images/pic04.jpg
+image: /images/sheep03.png
 order: 99
 
 ---

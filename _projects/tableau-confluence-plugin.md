@@ -5,7 +5,7 @@ description: >
 href: https://marketplace.atlassian.com/plugins/tableau-plugin/server/overview
 repo: https://github.com/schubergphilis/tableau-confluence-plugin
 doc: https://github.com/schubergphilis/tableau-confluence-plugin
-image: /images/pic08.jpg
+image: /images/pic02.jpg
 author:
   - roel
 category:

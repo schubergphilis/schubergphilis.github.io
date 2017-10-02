@@ -5,7 +5,7 @@ description: >
 href: http://data-migrator.readthedocs.io/en/latest/
 repo: https://github.com/schubergphilis/data-migrator
 doc: http://data-migrator.readthedocs.io/en/latest/
-image: /images/pic05.jpg
+image: /images/pic02.jpg
 author:
   - ilja
 category:

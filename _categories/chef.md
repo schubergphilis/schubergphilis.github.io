@@ -2,7 +2,7 @@
 title: Chef, cookbooks and more
 caption: We are Chefs, these are our extensions and cookbooks
 layout: page
-image: /images/pic02.jpg
+image: /images/sheep03.png
 order: 2
 ---
 <h3>Main projects</h3>

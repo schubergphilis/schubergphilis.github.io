@@ -3,7 +3,7 @@ title: Security
 caption: >
   Our security projects.
 layout: page
-image: /images/pic04.jpg
+image: /images/sheep03.png
 order: 3
 ---
 <section class="tiles">
