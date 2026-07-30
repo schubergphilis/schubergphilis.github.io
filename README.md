@@ -1,4 +1,9 @@
 # schubergphilis.github.io
+
+> **This branch is old and no longer used.** The live site is now built from
+> the [`main`](https://github.com/schubergphilis/schubergphilis.github.io/tree/main)
+> branch. See that branch for the current source.
+
 The landing site, this is a Jekyll generated static site with a template
 taken from <a href="html5up.net">html5up.net</a>. The template is integrated
 with the site.
