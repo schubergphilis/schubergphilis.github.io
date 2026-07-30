@@ -1,0 +1,188 @@
+[
+	{
+		"name": "mdd",
+		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
+		"url": "https://github.com/schubergphilis/mdd",
+		"pushedAt": "2026-07-30T09:37:00Z"
+	},
+	{
+		"name": "claude-docker",
+		"description": "Hardened Docker container for running Claude Code",
+		"url": "https://github.com/schubergphilis/claude-docker",
+		"pushedAt": "2026-07-29T12:21:38Z"
+	},
+	{
+		"name": "oktalib",
+		"description": "A python library for interfacing with OKTA's api",
+		"url": "https://github.com/schubergphilis/oktalib",
+		"pushedAt": "2026-07-29T06:16:15Z"
+	},
+	{
+		"name": "graphql-linter",
+		"description": "Lint and enforce GraphQL schemas with federation support.",
+		"url": "https://github.com/schubergphilis/graphql-linter",
+		"pushedAt": "2026-07-28T13:23:00Z"
+	},
+	{
+		"name": "mcvs-golang-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-action",
+		"pushedAt": "2026-07-27T06:26:33Z"
+	},
+	{
+		"name": "mcaf-github-workflows",
+		"description": "Repository for centralized reusable Github workflows ",
+		"url": "https://github.com/schubergphilis/mcaf-github-workflows",
+		"pushedAt": "2026-07-24T02:45:23Z"
+	},
+	{
+		"name": "datadog_slo_overrides_cli",
+		"description": "CLI to set overrides idempotently for multiple SLO's",
+		"url": "https://github.com/schubergphilis/datadog_slo_overrides_cli",
+		"pushedAt": "2026-07-17T13:37:45Z"
+	},
+	{
+		"name": "gitlab-mr-check",
+		"description": "GitLab Merge Request 4-Eyes Approval Audit Tool",
+		"url": "https://github.com/schubergphilis/gitlab-mr-check",
+		"pushedAt": "2026-07-14T11:26:52Z"
+	},
+	{
+		"name": "sqe",
+		"description": "Sovereign Query Engine",
+		"url": "https://github.com/schubergphilis/sqe",
+		"pushedAt": "2026-07-12T20:30:06Z"
+	},
+	{
+		"name": "mcvs-docker-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Docker Action. Build a lean docker image without high and critical vulnerabilities and push it to the GitHub packages.",
+		"url": "https://github.com/schubergphilis/mcvs-docker-action",
+		"pushedAt": "2026-07-10T20:53:03Z"
+	},
+	{
+		"name": "sbp-frontend-style",
+		"description": "Common HTML design components for ReactJS platforms",
+		"url": "https://github.com/schubergphilis/sbp-frontend-style",
+		"pushedAt": "2026-07-09T11:53:47Z"
+	},
+	{
+		"name": "mcvs-integrationtest-services",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Integrationtest Services provides Docker images that can be used for component, integration and end-to-end (E2E) testing.",
+		"url": "https://github.com/schubergphilis/mcvs-integrationtest-services",
+		"pushedAt": "2026-07-08T07:35:14Z"
+	},
+	{
+		"name": "mcvs-golang-project-root",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Project Root contains a Golang snippet that determines the root of a project.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-project-root",
+		"pushedAt": "2026-07-08T06:35:05Z"
+	},
+	{
+		"name": "awsfindingsmanagerlib",
+		"description": "",
+		"url": "https://github.com/schubergphilis/awsfindingsmanagerlib",
+		"pushedAt": "2026-06-25T08:58:32Z"
+	},
+	{
+		"name": "terraform-aws-mcaf-transfer",
+		"description": "Terraform module to create a transfer server and tranfer users (with one or more public SSH keys).",
+		"url": "https://github.com/schubergphilis/terraform-aws-mcaf-transfer",
+		"pushedAt": "2026-06-19T14:56:24Z"
+	},
+	{
+		"name": "mcvs-pr-validation-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Pull Request (PR) Validation Action. Validate whether a PR is compliant.",
+		"url": "https://github.com/schubergphilis/mcvs-pr-validation-action",
+		"pushedAt": "2026-06-11T17:32:53Z"
+	},
+	{
+		"name": "mcvs-python-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Python Action. Create Python code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-python-action",
+		"pushedAt": "2026-06-10T13:53:25Z"
+	},
+	{
+		"name": "mcvs-general-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) General Action. From linting to scanning.",
+		"url": "https://github.com/schubergphilis/mcvs-general-action",
+		"pushedAt": "2026-06-08T20:43:52Z"
+	},
+	{
+		"name": "agents.md",
+		"description": "Schuberg Philis collections of agents.md for guiding coding agents",
+		"url": "https://github.com/schubergphilis/agents.md",
+		"pushedAt": "2026-05-30T15:57:21Z"
+	},
+	{
+		"name": "lastpasslib",
+		"description": "Library interacting with lastpass.",
+		"url": "https://github.com/schubergphilis/lastpasslib",
+		"pushedAt": "2026-05-26T15:00:09Z"
+	},
+	{
+		"name": "paleofuturistic_python",
+		"description": "The Python development workflow your past self had always hoped for is finally here!",
+		"url": "https://github.com/schubergphilis/paleofuturistic_python",
+		"pushedAt": "2026-05-22T07:36:36Z"
+	},
+	{
+		"name": "azureenergylabelerlib",
+		"description": "Project energy labeling azure subscriptions, resource groups and tenant based on findings of Azure Defender for cloud .",
+		"url": "https://github.com/schubergphilis/azureenergylabelerlib",
+		"pushedAt": "2026-05-20T13:18:43Z"
+	},
+	{
+		"name": "chef-guard",
+		"description": "Chef-Guard protects your Chef server from untested and uncommitted cookbooks",
+		"url": "https://github.com/schubergphilis/chef-guard",
+		"pushedAt": "2026-05-19T14:07:42Z"
+	},
+	{
+		"name": "mcvs-golang-action-taskfile-remote-url-ref-updater",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action Taskfile REMOTE_URL_REF updater. Action that updates the REMOTE_URL_REF in a Taskfile through Pull Requests to prevent that one will forget to update the MCVS-golang-action in a Taskfile once that one has been updated using Dependabot.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-action-taskfile-remote-url-ref-updater",
+		"pushedAt": "2026-05-12T08:36:23Z"
+	},
+	{
+		"name": "terraform-azure-mcaf-bckp",
+		"description": "",
+		"url": "https://github.com/schubergphilis/terraform-azure-mcaf-bckp",
+		"pushedAt": "2026-05-11T08:56:35Z"
+	},
+	{
+		"name": "devcontainer",
+		"description": "A container image to be used as a remote development environment inside Visual Studio Code through the Remote Dev Container extension.",
+		"url": "https://github.com/schubergphilis/devcontainer",
+		"pushedAt": "2026-05-06T17:22:11Z"
+	},
+	{
+		"name": "grawsp",
+		"description": "A command line application to assist engineers manage credentials in an AWS landing zone.",
+		"url": "https://github.com/schubergphilis/grawsp",
+		"pushedAt": "2026-05-06T08:50:37Z"
+	},
+	{
+		"name": "prepare-action",
+		"description": "GitHub action used to setup the dependencies needed by specific project types and their pipeline jobs.",
+		"url": "https://github.com/schubergphilis/prepare-action",
+		"pushedAt": "2026-05-04T16:11:19Z"
+	},
+	{
+		"name": "sbp-flow-graph",
+		"description": "Flow diagrams based on Force directed bubbles for ReactJS projects.",
+		"url": "https://github.com/schubergphilis/sbp-flow-graph",
+		"pushedAt": "2026-04-22T14:17:30Z"
+	},
+	{
+		"name": "sbp-vulnerability-scanner",
+		"description": "",
+		"url": "https://github.com/schubergphilis/sbp-vulnerability-scanner",
+		"pushedAt": "2026-03-23T10:55:05Z"
+	},
+	{
+		"name": "azureenergylabelercli",
+		"description": "A cli which uses azureenergylabelerlib to generate energy ratings for Tenants, Subscriptions and Resource Groups",
+		"url": "https://github.com/schubergphilis/azureenergylabelercli",
+		"pushedAt": "2026-03-09T11:33:59Z"
+	}
+]

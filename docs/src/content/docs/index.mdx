@@ -1,0 +1,31 @@
+---
+title: Schuberg Philis Open Source
+description: Open source projects from Schuberg Philis.
+template: splash
+head:
+  - tag: title
+    content: Schuberg Philis Open Source
+---
+
+import { Content as Intro } from '../../intro.md';
+import repos from '../../data/repos.json';
+
+<Intro />
+
+## Recently updated
+
+Public [schubergphilis](https://github.com/schubergphilis) repositories with
+activity in the last 6 months:
+
+<ul>
+	{repos.map((repo) => (
+		<li>
+			<a href={repo.url}>
+				<strong>{repo.name}</strong>
+			</a>
+			{repo.description ? ` - ${repo.description}` : ''}
+		</li>
+	))}
+</ul>
+
+See the full list of our [public repositories on GitHub](https://github.com/schubergphilis?tab=repositories&type=source).

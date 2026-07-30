@@ -1,0 +1,77 @@
+/* SBP Blue theme, mapped onto Starlight's design tokens. Palette source: the
+   Schuberg Philis brandbook (https://brandbook.schubergphilis.com/colors) -
+   SBP Blue #1E80ED, Soft Blue #E8F2FD, Midnight Dark #020C17. Starlight
+   derives all surfaces/text/borders from an accent ramp (low/accent/high), a
+   gray ramp (1=lightest..6/7=darkest in dark mode, inverted in light) and
+   black/white, so overriding those restyles the whole site. Dark mode is
+   `:root`; light mode is `:root[data-theme='light']`. */
+:root {
+	/* SBP Blue Dark */
+	--sl-color-accent-low: #0d2e52;
+	--sl-color-accent: #1e80ed;
+	--sl-color-accent-high: #7fb8f5;
+	--sl-color-white: #ffffff; /* headings */
+	--sl-color-gray-1: #eef3f8;
+	--sl-color-gray-2: #c7d3de; /* body text (fg) */
+	--sl-color-gray-3: #8a99a8; /* muted */
+	--sl-color-gray-4: #5b6b7a; /* dim */
+	--sl-color-gray-5: #2c3a48; /* borders / hairlines */
+	--sl-color-gray-6: #101c28; /* nav & sidebar bg */
+	--sl-color-black: #020c17; /* page bg (Midnight Dark) */
+}
+:root[data-theme='light'] {
+	/* SBP Blue Light */
+	--sl-color-accent-low: #e8f2fd; /* Soft Blue */
+	--sl-color-accent: #1e80ed;
+	--sl-color-accent-high: #0f5fc0; /* darkened for link contrast on white */
+	--sl-color-white: #020c17; /* headings (fg), Midnight Dark */
+	--sl-color-gray-1: #16232f;
+	--sl-color-gray-2: #2c3a48; /* body text */
+	--sl-color-gray-3: #536372; /* dim */
+	--sl-color-gray-4: #8a99a8; /* faint */
+	--sl-color-gray-5: #dce3ea; /* borders */
+	--sl-color-gray-6: #eef3f8;
+	--sl-color-gray-7: #f7fafd;
+	--sl-color-black: #ffffff; /* page bg */
+}
+
+/* Fonts: Poppins is the brandbook's documented fallback for TT Interphases (a
+   licensed font not available for a public repo/build). Extra-bold headings,
+   regular body, matching the brandbook's weight roles. Webfont loaded in
+   astro.config.mjs's `head`. */
+:root {
+	--sl-font: 'Poppins', sans-serif;
+	--sl-font-mono: ui-monospace, 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+}
+h1,
+h2,
+h3 {
+	font-weight: 800;
+}
+
+/* Brandbook stylization calls for rounded containers (cards, text/image
+   panels get 3 rounded corners) rather than sharp rectangles. */
+.card {
+	border-radius: 0.5rem;
+}
+
+/* Make a whole card clickable (the card is wrapped in an `.card-link` anchor)
+   with a subtle lift-and-highlight on hover. */
+.card-link {
+	display: block;
+	height: 100%;
+	text-decoration: none;
+	color: inherit;
+}
+.card-link .card {
+	height: 100%;
+	transition:
+		transform 0.15s ease,
+		border-color 0.15s ease,
+		box-shadow 0.15s ease;
+}
+.card-link:hover .card {
+	transform: translateY(-3px);
+	border-color: var(--sl-color-text-accent);
+	box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.4);
+}
