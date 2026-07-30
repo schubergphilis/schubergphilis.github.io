@@ -7,7 +7,7 @@ import { writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
 const ORG = 'schubergphilis';
-const MAX_AGE_DAYS = 182;
+const MAX_AGE_DAYS = 365;
 const EXCLUDE = new Set(['schubergphilis.github.io', '.github']);
 
 const raw = execFileSync(

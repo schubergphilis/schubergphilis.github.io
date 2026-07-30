@@ -3,19 +3,19 @@
 		"name": "mdd",
 		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
 		"url": "https://github.com/schubergphilis/mdd",
-		"pushedAt": "2026-07-30T09:37:00Z"
+		"pushedAt": "2026-07-30T12:52:41Z"
+	},
+	{
+		"name": "oktalib",
+		"description": "A python library for interfacing with OKTA's api",
+		"url": "https://github.com/schubergphilis/oktalib",
+		"pushedAt": "2026-07-30T12:03:54Z"
 	},
 	{
 		"name": "claude-docker",
 		"description": "Hardened Docker container for running Claude Code",
 		"url": "https://github.com/schubergphilis/claude-docker",
 		"pushedAt": "2026-07-29T12:21:38Z"
-	},
-	{
-		"name": "oktalib",
-		"description": "A python library for interfacing with OKTA's api",
-		"url": "https://github.com/schubergphilis/oktalib",
-		"pushedAt": "2026-07-29T06:16:15Z"
 	},
 	{
 		"name": "graphql-linter",
@@ -184,5 +184,35 @@
 		"description": "A cli which uses azureenergylabelerlib to generate energy ratings for Tenants, Subscriptions and Resource Groups",
 		"url": "https://github.com/schubergphilis/azureenergylabelercli",
 		"pushedAt": "2026-03-09T11:33:59Z"
+	},
+	{
+		"name": "chef-acme",
+		"description": "Chef cookbook to request SSL certificates at Let's Encrypt",
+		"url": "https://github.com/schubergphilis/chef-acme",
+		"pushedAt": "2026-01-05T12:24:22Z"
+	},
+	{
+		"name": "security-presentations-and-workshops",
+		"description": "Different workshops and presentations publicly available.",
+		"url": "https://github.com/schubergphilis/security-presentations-and-workshops",
+		"pushedAt": "2025-11-27T09:34:06Z"
+	},
+	{
+		"name": "cheflib",
+		"description": "A Chef server api python library.",
+		"url": "https://github.com/schubergphilis/cheflib",
+		"pushedAt": "2025-10-03T12:08:36Z"
+	},
+	{
+		"name": "package-checker",
+		"description": "Check packages for versions that have interest",
+		"url": "https://github.com/schubergphilis/package-checker",
+		"pushedAt": "2025-09-16T12:20:03Z"
+	},
+	{
+		"name": "robotarms",
+		"description": "",
+		"url": "https://github.com/schubergphilis/robotarms",
+		"pushedAt": "2025-09-09T08:33:06Z"
 	}
 ]

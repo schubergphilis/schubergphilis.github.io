@@ -15,65 +15,77 @@ import repos from '../../data/repos.json';
 
 ## Featured
 
-<CardGrid>
-	<a class="card-link" href="https://mvl-lang.org">
-		<Card title="MVL" icon="puzzle">
-			Programming language research creating a maximally verifiable language
-			for use with AI agents.
-		</Card>
-	</a>
-	<a class="card-link" href="https://github.com/schubergphilis/sqe">
-		<Card title="SQE" icon="database">
-			Rust-based SQL query engine for Apache Iceberg tables.
-		</Card>
-	</a>
-	<a class="card-link" href="https://github.com/schubergphilis-ep">
-		<Card title="Cloud Enablement Platform" icon="cloud-download">
-			Terraform libraries for building cloud enablement platforms.
-		</Card>
-	</a>
-	<a class="card-link" href="https://github.com/schubergphilis/agents.md">
-		<Card title="agents.md" icon="open-book">
-			Skills and tools for use with AI agents.
-		</Card>
-	</a>
-	<a class="card-link" href="https://github.com/schubergphilis/mcvs-golang-action">
-		<Card title="MCVS Golang Action" icon="approve-check-circle">
-			Security and quality control for Golang projects.
-		</Card>
-	</a>
-	<a class="card-link" href="https://github.com/schubergphilis/oktalib">
-		<Card title="oktalib" icon="padlock">
-			Python library for working with Okta.
-		</Card>
-	</a>
-	<a class="card-link" href="https://github.com/schubergphilis/mdd">
-		<Card title="mdd" icon="confluence">
-			Python library for bi-directional sync from markdown to Confluence and
-			SharePoint.
-		</Card>
-	</a>
-	<a class="card-link" href="https://github.com/sous-chefs">
-		<Card title="sous-chefs" icon="list-format">
-			High-quality Chef cookbooks SBP engineers actively contribute to.
-		</Card>
-	</a>
-	<a class="card-link" href="https://github.com/schubergphilis/chef-guard">
-		<Card title="chef-guard" icon="server">
-			Protect your Chef server from untested and uncommitted cookbooks.
-		</Card>
-	</a>
-	<a class="card-link" href="https://github.com/LAB271/">
-		<Card title="LAB271" icon="rocket">
-			Research, demos and experiments.
-		</Card>
-	</a>
-</CardGrid>
+<div class="featured">
+	<CardGrid>
+		<a class="card-link" href="https://github.com/schubergphilis/agents.md">
+			<Card title="agents.md">
+				Skills and tools for use with AI agents.
+			</Card>
+		</a>
+		<a class="card-link" href="https://github.com/schubergphilis/chef-guard">
+			<Card title="chef-guard">
+				Protect your Chef server from untested and uncommitted cookbooks.
+			</Card>
+		</a>
+		<a class="card-link" href="https://github.com/schubergphilis/claude-docker">
+			<Card title="claude-docker">
+				One way we run Claude Code in a sandbox.
+			</Card>
+		</a>
+		<a class="card-link" href="https://github.com/schubergphilis-ep">
+			<Card title="Cloud Enablement Platform">
+				Terraform libraries for building cloud enablement platforms.
+			</Card>
+		</a>
+		<a class="card-link" href="https://github.com/LAB271/">
+			<Card title="LAB271">
+				Research, demos and experiments.
+			</Card>
+		</a>
+		<a class="card-link" href="https://github.com/schubergphilis/mcvs-golang-action">
+			<Card title="MCVS Golang Action">
+				Security and quality control for Golang projects.
+			</Card>
+		</a>
+		<a class="card-link" href="https://github.com/schubergphilis/mdd">
+			<Card title="MDD">
+				Python library for bi-directional sync from markdown to Confluence and
+				SharePoint.
+			</Card>
+		</a>
+		<a class="card-link" href="https://mvl-lang.org">
+			<Card title="MVL">
+				Programming language research creating a maximally verifiable language
+				for use with AI agents.
+			</Card>
+		</a>
+		<a class="card-link" href="https://github.com/schubergphilis/oktalib">
+			<Card title="oktalib">
+				Python library for working with Okta.
+			</Card>
+		</a>
+		<a class="card-link" href="https://schubergphilis.github.io/paleofuturistic_python/">
+			<Card title="paleofuturistic_python">
+				Our template for developing Python packages.
+			</Card>
+		</a>
+		<a class="card-link" href="https://github.com/sous-chefs">
+			<Card title="sous-chefs">
+				High-quality Chef cookbooks SBP engineers actively contribute to.
+			</Card>
+		</a>
+		<a class="card-link" href="https://github.com/schubergphilis/sqe">
+			<Card title="SQE">
+				Rust-based SQL query engine for Apache Iceberg tables.
+			</Card>
+		</a>
+	</CardGrid>
+</div>
 
-## Recently updated
+## In the last 12 months
 
 Public [schubergphilis](https://github.com/schubergphilis) repositories with
-activity in the last 6 months:
+activity in the last 12 months:
 
 <ul>
 	{repos.map((repo) => (

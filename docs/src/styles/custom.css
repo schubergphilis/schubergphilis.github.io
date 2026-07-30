@@ -89,10 +89,29 @@ h1#_top {
 	padding-block: 0;
 }
 
+/* Starlight wraps each heading in a `.sl-heading-wrapper` div (for the anchor
+   link) and puts the extra margin-above-a-heading spacing on that wrapper,
+   not the heading itself. Tighten the gap above the first section title
+   (Featured), which otherwise inherits the same margin as a heading that
+   follows a full section rather than a short intro paragraph. */
+.sl-markdown-content > .sl-heading-wrapper:first-of-type {
+	margin-top: 0.5em;
+}
+
 /* Brandbook stylization calls for rounded containers (cards, text/image
    panels get 3 rounded corners) rather than sharp rectangles. */
 .card {
 	border-radius: 0.5rem;
+	padding: 0.75rem 1rem;
+	gap: 0.4rem;
+}
+
+/* Three columns and a tighter gap for the denser Featured grid. */
+@media (min-width: 50rem) {
+	.featured .card-grid {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 0.75rem;
+	}
 }
 
 /* Make a whole card clickable (the card is wrapped in an `.card-link` anchor)
