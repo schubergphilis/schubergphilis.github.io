@@ -1,9 +1,21 @@
 [
 	{
+		"name": "mcvs-general-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) General Action. From linting to scanning.",
+		"url": "https://github.com/schubergphilis/mcvs-general-action",
+		"pushedAt": "2026-07-30T15:35:37Z"
+	},
+	{
+		"name": "mcvs-golang-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-action",
+		"pushedAt": "2026-07-30T15:23:59Z"
+	},
+	{
 		"name": "mdd",
 		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
 		"url": "https://github.com/schubergphilis/mdd",
-		"pushedAt": "2026-07-30T12:52:41Z"
+		"pushedAt": "2026-07-30T13:52:07Z"
 	},
 	{
 		"name": "oktalib",
@@ -22,12 +34,6 @@
 		"description": "Lint and enforce GraphQL schemas with federation support.",
 		"url": "https://github.com/schubergphilis/graphql-linter",
 		"pushedAt": "2026-07-28T13:23:00Z"
-	},
-	{
-		"name": "mcvs-golang-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
-		"url": "https://github.com/schubergphilis/mcvs-golang-action",
-		"pushedAt": "2026-07-27T06:26:33Z"
 	},
 	{
 		"name": "mcaf-github-workflows",
@@ -58,12 +64,6 @@
 		"description": "Mission Critical Vulnerability Scanner (MCVS) Docker Action. Build a lean docker image without high and critical vulnerabilities and push it to the GitHub packages.",
 		"url": "https://github.com/schubergphilis/mcvs-docker-action",
 		"pushedAt": "2026-07-10T20:53:03Z"
-	},
-	{
-		"name": "sbp-frontend-style",
-		"description": "Common HTML design components for ReactJS platforms",
-		"url": "https://github.com/schubergphilis/sbp-frontend-style",
-		"pushedAt": "2026-07-09T11:53:47Z"
 	},
 	{
 		"name": "mcvs-integrationtest-services",
@@ -100,12 +100,6 @@
 		"description": "Mission Critical Vulnerability Scanner (MCVS) Python Action. Create Python code without high and critical vulnerabilities.",
 		"url": "https://github.com/schubergphilis/mcvs-python-action",
 		"pushedAt": "2026-06-10T13:53:25Z"
-	},
-	{
-		"name": "mcvs-general-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) General Action. From linting to scanning.",
-		"url": "https://github.com/schubergphilis/mcvs-general-action",
-		"pushedAt": "2026-06-08T20:43:52Z"
 	},
 	{
 		"name": "agents.md",
@@ -168,18 +162,6 @@
 		"pushedAt": "2026-05-04T16:11:19Z"
 	},
 	{
-		"name": "sbp-flow-graph",
-		"description": "Flow diagrams based on Force directed bubbles for ReactJS projects.",
-		"url": "https://github.com/schubergphilis/sbp-flow-graph",
-		"pushedAt": "2026-04-22T14:17:30Z"
-	},
-	{
-		"name": "sbp-vulnerability-scanner",
-		"description": "",
-		"url": "https://github.com/schubergphilis/sbp-vulnerability-scanner",
-		"pushedAt": "2026-03-23T10:55:05Z"
-	},
-	{
 		"name": "azureenergylabelercli",
 		"description": "A cli which uses azureenergylabelerlib to generate energy ratings for Tenants, Subscriptions and Resource Groups",
 		"url": "https://github.com/schubergphilis/azureenergylabelercli",
@@ -202,17 +184,5 @@
 		"description": "A Chef server api python library.",
 		"url": "https://github.com/schubergphilis/cheflib",
 		"pushedAt": "2025-10-03T12:08:36Z"
-	},
-	{
-		"name": "package-checker",
-		"description": "Check packages for versions that have interest",
-		"url": "https://github.com/schubergphilis/package-checker",
-		"pushedAt": "2025-09-16T12:20:03Z"
-	},
-	{
-		"name": "robotarms",
-		"description": "",
-		"url": "https://github.com/schubergphilis/robotarms",
-		"pushedAt": "2025-09-09T08:33:06Z"
 	}
 ]

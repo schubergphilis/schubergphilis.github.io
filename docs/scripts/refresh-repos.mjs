@@ -23,15 +23,22 @@ const raw = execFileSync(
 		'--limit',
 		'1000',
 		'--json',
-		'name,description,url,pushedAt',
+		'name,description,url,pushedAt,licenseInfo',
 	],
 	{ encoding: 'utf8' },
 );
 
 const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
 
+// GitHub reports a detected license as a `licenseInfo.key`; repos without a
+// LICENSE file have no `licenseInfo` at all, and repos whose license file it
+// cannot match to a known license get the `other` pseudo-license (SPDX
+// `NOASSERTION`). Neither counts as open source for our purposes.
+const hasOpenSourceLicense = (repo) => repo.licenseInfo !== null && repo.licenseInfo.key !== 'other';
+
 const repos = JSON.parse(raw)
 	.filter((repo) => !EXCLUDE.has(repo.name))
+	.filter(hasOpenSourceLicense)
 	.filter((repo) => new Date(repo.pushedAt).getTime() >= cutoff)
 	.sort((a, b) => new Date(b.pushedAt) - new Date(a.pushedAt))
 	.map(({ name, description, url, pushedAt }) => ({
