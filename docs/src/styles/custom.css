@@ -49,6 +49,21 @@ h3 {
 	font-weight: 800;
 }
 
+/* Brandbook: the nav bar itself is SBP Blue, with the "on SBP Blue" logo
+   variant (white wordmark, dark slash - see logo.svg) and white text/icons.
+   Scoped to the header so descendants (site title, social icons, theme
+   select) pick up these overridden tokens instead of the page's light/dark
+   ones, which would otherwise be low-contrast against a blue bar. */
+header.header {
+	--sl-color-bg-nav: #1e80ed;
+	--sl-color-hairline-shade: rgba(255, 255, 255, 0.25);
+	--sl-color-text-accent: #ffffff;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #ffffff;
+	--sl-color-gray-2: #e8f2fd;
+	--sl-color-gray-5: rgba(255, 255, 255, 0.35);
+}
+
 /* This is a single splash landing page, and the site title already appears in
    the header, so the page's own <h1> is a duplicate. Hide it visually - but
    keep it in the DOM as the skip-link target and for accessibility/SEO. */

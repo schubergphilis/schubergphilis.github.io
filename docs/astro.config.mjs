@@ -13,7 +13,7 @@ export default defineConfig({
 			title: 'Schuberg Philis Open Source',
 			description: 'Open source projects from Schuberg Philis.',
 			logo: {
-				src: './src/assets/logo.png',
+				src: './src/assets/logo.svg',
 				alt: 'Schuberg Philis',
 			},
 			favicon: '/favicon.png',
