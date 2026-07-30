@@ -10,7 +10,7 @@ export default defineConfig({
 	site: 'https://schubergphilis.github.io',
 	integrations: [
 		starlight({
-			title: 'Schuberg Philis Open Source',
+			title: 'SBP Open Source',
 			description: 'Open source projects from Schuberg Philis.',
 			logo: {
 				src: './src/assets/logo.svg',
