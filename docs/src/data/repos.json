@@ -1,39 +1,45 @@
 [
 	{
+		"name": "mcvs-golang-action-taskfile-remote-url-ref-updater",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action Taskfile REMOTE_URL_REF updater. Action that updates the REMOTE_URL_REF in a Taskfile through Pull Requests to prevent that one will forget to update the MCVS-golang-action in a Taskfile once that one has been updated using Dependabot.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-action-taskfile-remote-url-ref-updater",
+		"pushedAt": "2026-08-03T05:44:09Z"
+	},
+	{
 		"name": "mcvs-general-action",
 		"description": "Mission Critical Vulnerability Scanner (MCVS) General Action. From linting to scanning.",
 		"url": "https://github.com/schubergphilis/mcvs-general-action",
-		"pushedAt": "2026-07-30T15:35:37Z"
-	},
-	{
-		"name": "mcvs-golang-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
-		"url": "https://github.com/schubergphilis/mcvs-golang-action",
-		"pushedAt": "2026-07-30T15:23:59Z"
-	},
-	{
-		"name": "mdd",
-		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
-		"url": "https://github.com/schubergphilis/mdd",
-		"pushedAt": "2026-07-30T13:52:07Z"
-	},
-	{
-		"name": "oktalib",
-		"description": "A python library for interfacing with OKTA's api",
-		"url": "https://github.com/schubergphilis/oktalib",
-		"pushedAt": "2026-07-30T12:03:54Z"
-	},
-	{
-		"name": "claude-docker",
-		"description": "Hardened Docker container for running Claude Code",
-		"url": "https://github.com/schubergphilis/claude-docker",
-		"pushedAt": "2026-07-29T12:21:38Z"
+		"pushedAt": "2026-08-02T20:01:44Z"
 	},
 	{
 		"name": "graphql-linter",
 		"description": "Lint and enforce GraphQL schemas with federation support.",
 		"url": "https://github.com/schubergphilis/graphql-linter",
-		"pushedAt": "2026-07-28T13:23:00Z"
+		"pushedAt": "2026-08-02T19:35:07Z"
+	},
+	{
+		"name": "mdd",
+		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
+		"url": "https://github.com/schubergphilis/mdd",
+		"pushedAt": "2026-07-31T11:16:24Z"
+	},
+	{
+		"name": "oktalib",
+		"description": "A python library for interfacing with OKTA's api",
+		"url": "https://github.com/schubergphilis/oktalib",
+		"pushedAt": "2026-07-31T09:10:38Z"
+	},
+	{
+		"name": "claude-docker",
+		"description": "Hardened Docker container for running Claude Code",
+		"url": "https://github.com/schubergphilis/claude-docker",
+		"pushedAt": "2026-07-31T06:14:07Z"
+	},
+	{
+		"name": "mcvs-golang-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-action",
+		"pushedAt": "2026-07-30T20:41:55Z"
 	},
 	{
 		"name": "mcaf-github-workflows",
@@ -130,12 +136,6 @@
 		"description": "Chef-Guard protects your Chef server from untested and uncommitted cookbooks",
 		"url": "https://github.com/schubergphilis/chef-guard",
 		"pushedAt": "2026-05-19T14:07:42Z"
-	},
-	{
-		"name": "mcvs-golang-action-taskfile-remote-url-ref-updater",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action Taskfile REMOTE_URL_REF updater. Action that updates the REMOTE_URL_REF in a Taskfile through Pull Requests to prevent that one will forget to update the MCVS-golang-action in a Taskfile once that one has been updated using Dependabot.",
-		"url": "https://github.com/schubergphilis/mcvs-golang-action-taskfile-remote-url-ref-updater",
-		"pushedAt": "2026-05-12T08:36:23Z"
 	},
 	{
 		"name": "terraform-azure-mcaf-bckp",
