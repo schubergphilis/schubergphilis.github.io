@@ -1,45 +1,57 @@
 [
 	{
-		"name": "mcvs-golang-action-taskfile-remote-url-ref-updater",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action Taskfile REMOTE_URL_REF updater. Action that updates the REMOTE_URL_REF in a Taskfile through Pull Requests to prevent that one will forget to update the MCVS-golang-action in a Taskfile once that one has been updated using Dependabot.",
-		"url": "https://github.com/schubergphilis/mcvs-golang-action-taskfile-remote-url-ref-updater",
-		"pushedAt": "2026-08-03T05:44:09Z"
+		"name": "agents.md",
+		"description": "Schuberg Philis collections of agents.md for guiding coding agents",
+		"url": "https://github.com/schubergphilis/agents.md",
+		"pushedAt": "2026-08-08T08:19:17Z"
 	},
 	{
-		"name": "mcvs-general-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) General Action. From linting to scanning.",
-		"url": "https://github.com/schubergphilis/mcvs-general-action",
-		"pushedAt": "2026-08-02T20:01:44Z"
+		"name": "mcvs-docker-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Docker Action. Build a lean docker image without high and critical vulnerabilities and push it to the GitHub packages.",
+		"url": "https://github.com/schubergphilis/mcvs-docker-action",
+		"pushedAt": "2026-08-07T20:53:22Z"
+	},
+	{
+		"name": "mcvs-golang-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-action",
+		"pushedAt": "2026-08-07T20:04:19Z"
 	},
 	{
 		"name": "graphql-linter",
 		"description": "Lint and enforce GraphQL schemas with federation support.",
 		"url": "https://github.com/schubergphilis/graphql-linter",
-		"pushedAt": "2026-08-02T19:35:07Z"
+		"pushedAt": "2026-08-07T18:53:31Z"
+	},
+	{
+		"name": "claude-docker",
+		"description": "Hardened Docker container for running Claude Code",
+		"url": "https://github.com/schubergphilis/claude-docker",
+		"pushedAt": "2026-08-07T18:50:47Z"
+	},
+	{
+		"name": "mcvs-golang-action-taskfile-remote-url-ref-updater",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action Taskfile REMOTE_URL_REF updater. Action that updates the REMOTE_URL_REF in a Taskfile through Pull Requests to prevent that one will forget to update the MCVS-golang-action in a Taskfile once that one has been updated using Dependabot.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-action-taskfile-remote-url-ref-updater",
+		"pushedAt": "2026-08-07T11:29:44Z"
+	},
+	{
+		"name": "mcvs-general-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) General Action. From linting to scanning.",
+		"url": "https://github.com/schubergphilis/mcvs-general-action",
+		"pushedAt": "2026-08-05T15:19:56Z"
 	},
 	{
 		"name": "mdd",
 		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
 		"url": "https://github.com/schubergphilis/mdd",
-		"pushedAt": "2026-07-31T11:16:24Z"
+		"pushedAt": "2026-08-05T12:21:53Z"
 	},
 	{
 		"name": "oktalib",
 		"description": "A python library for interfacing with OKTA's api",
 		"url": "https://github.com/schubergphilis/oktalib",
 		"pushedAt": "2026-07-31T09:10:38Z"
-	},
-	{
-		"name": "claude-docker",
-		"description": "Hardened Docker container for running Claude Code",
-		"url": "https://github.com/schubergphilis/claude-docker",
-		"pushedAt": "2026-07-31T06:14:07Z"
-	},
-	{
-		"name": "mcvs-golang-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
-		"url": "https://github.com/schubergphilis/mcvs-golang-action",
-		"pushedAt": "2026-07-30T20:41:55Z"
 	},
 	{
 		"name": "mcaf-github-workflows",
@@ -64,12 +76,6 @@
 		"description": "Sovereign Query Engine",
 		"url": "https://github.com/schubergphilis/sqe",
 		"pushedAt": "2026-07-12T20:30:06Z"
-	},
-	{
-		"name": "mcvs-docker-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Docker Action. Build a lean docker image without high and critical vulnerabilities and push it to the GitHub packages.",
-		"url": "https://github.com/schubergphilis/mcvs-docker-action",
-		"pushedAt": "2026-07-10T20:53:03Z"
 	},
 	{
 		"name": "mcvs-integrationtest-services",
@@ -106,12 +112,6 @@
 		"description": "Mission Critical Vulnerability Scanner (MCVS) Python Action. Create Python code without high and critical vulnerabilities.",
 		"url": "https://github.com/schubergphilis/mcvs-python-action",
 		"pushedAt": "2026-06-10T13:53:25Z"
-	},
-	{
-		"name": "agents.md",
-		"description": "Schuberg Philis collections of agents.md for guiding coding agents",
-		"url": "https://github.com/schubergphilis/agents.md",
-		"pushedAt": "2026-05-30T15:57:21Z"
 	},
 	{
 		"name": "lastpasslib",
