@@ -1,5 +1,71 @@
 [
 	{
+		"name": "mdd",
+		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
+		"url": "https://github.com/schubergphilis/mdd",
+		"pushedAt": "2026-08-16T11:55:31Z"
+	},
+	{
+		"name": "mcvs-golang-project-root",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Project Root contains a Golang snippet that determines the root of a project.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-project-root",
+		"pushedAt": "2026-08-16T06:58:14Z"
+	},
+	{
+		"name": "graphql-linter",
+		"description": "Lint and enforce GraphQL schemas with federation support.",
+		"url": "https://github.com/schubergphilis/graphql-linter",
+		"pushedAt": "2026-08-16T06:58:13Z"
+	},
+	{
+		"name": "mcvs-golang-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-action",
+		"pushedAt": "2026-08-15T16:37:33Z"
+	},
+	{
+		"name": "mcvs-integrationtest-services",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Integrationtest Services provides Docker images that can be used for component, integration and end-to-end (E2E) testing.",
+		"url": "https://github.com/schubergphilis/mcvs-integrationtest-services",
+		"pushedAt": "2026-08-14T13:12:37Z"
+	},
+	{
+		"name": "mcvs-golang-action-taskfile-remote-url-ref-updater",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action Taskfile REMOTE_URL_REF updater. Action that updates the REMOTE_URL_REF in a Taskfile through Pull Requests to prevent that one will forget to update the MCVS-golang-action in a Taskfile once that one has been updated using Dependabot.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-action-taskfile-remote-url-ref-updater",
+		"pushedAt": "2026-08-14T08:03:39Z"
+	},
+	{
+		"name": "mcvs-dotnet-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) .NET Action. Create .NET code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-dotnet-action",
+		"pushedAt": "2026-08-14T00:21:47Z"
+	},
+	{
+		"name": "mcvs-php-action",
+		"description": "",
+		"url": "https://github.com/schubergphilis/mcvs-php-action",
+		"pushedAt": "2026-08-13T23:54:44Z"
+	},
+	{
+		"name": "mcvs-general-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) General Action. From linting to scanning.",
+		"url": "https://github.com/schubergphilis/mcvs-general-action",
+		"pushedAt": "2026-08-13T07:25:41Z"
+	},
+	{
+		"name": "chef-guard",
+		"description": "Chef-Guard protects your Chef server from untested and uncommitted cookbooks",
+		"url": "https://github.com/schubergphilis/chef-guard",
+		"pushedAt": "2026-08-12T12:13:47Z"
+	},
+	{
+		"name": "claude-docker",
+		"description": "Hardened Docker container for running Claude Code",
+		"url": "https://github.com/schubergphilis/claude-docker",
+		"pushedAt": "2026-08-11T23:54:56Z"
+	},
+	{
 		"name": "agents.md",
 		"description": "Schuberg Philis collections of agents.md for guiding coding agents",
 		"url": "https://github.com/schubergphilis/agents.md",
@@ -10,42 +76,6 @@
 		"description": "Mission Critical Vulnerability Scanner (MCVS) Docker Action. Build a lean docker image without high and critical vulnerabilities and push it to the GitHub packages.",
 		"url": "https://github.com/schubergphilis/mcvs-docker-action",
 		"pushedAt": "2026-08-07T20:53:22Z"
-	},
-	{
-		"name": "mcvs-golang-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
-		"url": "https://github.com/schubergphilis/mcvs-golang-action",
-		"pushedAt": "2026-08-07T20:04:19Z"
-	},
-	{
-		"name": "graphql-linter",
-		"description": "Lint and enforce GraphQL schemas with federation support.",
-		"url": "https://github.com/schubergphilis/graphql-linter",
-		"pushedAt": "2026-08-07T18:53:31Z"
-	},
-	{
-		"name": "claude-docker",
-		"description": "Hardened Docker container for running Claude Code",
-		"url": "https://github.com/schubergphilis/claude-docker",
-		"pushedAt": "2026-08-07T18:50:47Z"
-	},
-	{
-		"name": "mcvs-golang-action-taskfile-remote-url-ref-updater",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action Taskfile REMOTE_URL_REF updater. Action that updates the REMOTE_URL_REF in a Taskfile through Pull Requests to prevent that one will forget to update the MCVS-golang-action in a Taskfile once that one has been updated using Dependabot.",
-		"url": "https://github.com/schubergphilis/mcvs-golang-action-taskfile-remote-url-ref-updater",
-		"pushedAt": "2026-08-07T11:29:44Z"
-	},
-	{
-		"name": "mcvs-general-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) General Action. From linting to scanning.",
-		"url": "https://github.com/schubergphilis/mcvs-general-action",
-		"pushedAt": "2026-08-05T15:19:56Z"
-	},
-	{
-		"name": "mdd",
-		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
-		"url": "https://github.com/schubergphilis/mdd",
-		"pushedAt": "2026-08-05T12:21:53Z"
 	},
 	{
 		"name": "oktalib",
@@ -76,18 +106,6 @@
 		"description": "Sovereign Query Engine",
 		"url": "https://github.com/schubergphilis/sqe",
 		"pushedAt": "2026-07-12T20:30:06Z"
-	},
-	{
-		"name": "mcvs-integrationtest-services",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Integrationtest Services provides Docker images that can be used for component, integration and end-to-end (E2E) testing.",
-		"url": "https://github.com/schubergphilis/mcvs-integrationtest-services",
-		"pushedAt": "2026-07-08T07:35:14Z"
-	},
-	{
-		"name": "mcvs-golang-project-root",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Project Root contains a Golang snippet that determines the root of a project.",
-		"url": "https://github.com/schubergphilis/mcvs-golang-project-root",
-		"pushedAt": "2026-07-08T06:35:05Z"
 	},
 	{
 		"name": "awsfindingsmanagerlib",
@@ -130,12 +148,6 @@
 		"description": "Project energy labeling azure subscriptions, resource groups and tenant based on findings of Azure Defender for cloud .",
 		"url": "https://github.com/schubergphilis/azureenergylabelerlib",
 		"pushedAt": "2026-05-20T13:18:43Z"
-	},
-	{
-		"name": "chef-guard",
-		"description": "Chef-Guard protects your Chef server from untested and uncommitted cookbooks",
-		"url": "https://github.com/schubergphilis/chef-guard",
-		"pushedAt": "2026-05-19T14:07:42Z"
 	},
 	{
 		"name": "terraform-azure-mcaf-bckp",
