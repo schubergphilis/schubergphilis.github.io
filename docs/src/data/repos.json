@@ -1,39 +1,57 @@
 [
 	{
-		"name": "mdd",
-		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
-		"url": "https://github.com/schubergphilis/mdd",
-		"pushedAt": "2026-08-16T11:55:31Z"
-	},
-	{
-		"name": "mcvs-golang-project-root",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Project Root contains a Golang snippet that determines the root of a project.",
-		"url": "https://github.com/schubergphilis/mcvs-golang-project-root",
-		"pushedAt": "2026-08-16T06:58:14Z"
-	},
-	{
-		"name": "graphql-linter",
-		"description": "Lint and enforce GraphQL schemas with federation support.",
-		"url": "https://github.com/schubergphilis/graphql-linter",
-		"pushedAt": "2026-08-16T06:58:13Z"
+		"name": "claude-docker",
+		"description": "Hardened Docker container for running Claude Code",
+		"url": "https://github.com/schubergphilis/claude-docker",
+		"pushedAt": "2026-08-24T05:25:10Z"
 	},
 	{
 		"name": "mcvs-golang-action",
 		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
 		"url": "https://github.com/schubergphilis/mcvs-golang-action",
-		"pushedAt": "2026-08-15T16:37:33Z"
+		"pushedAt": "2026-08-22T22:19:35Z"
 	},
 	{
-		"name": "mcvs-integrationtest-services",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Integrationtest Services provides Docker images that can be used for component, integration and end-to-end (E2E) testing.",
-		"url": "https://github.com/schubergphilis/mcvs-integrationtest-services",
-		"pushedAt": "2026-08-14T13:12:37Z"
+		"name": "mcaf-github-workflows",
+		"description": "Repository for centralized reusable Github workflows ",
+		"url": "https://github.com/schubergphilis/mcaf-github-workflows",
+		"pushedAt": "2026-08-21T17:15:33Z"
+	},
+	{
+		"name": "graphql-linter",
+		"description": "Lint and enforce GraphQL schemas with federation support.",
+		"url": "https://github.com/schubergphilis/graphql-linter",
+		"pushedAt": "2026-08-21T07:02:28Z"
+	},
+	{
+		"name": "mcvs-golang-project-root",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Project Root contains a Golang snippet that determines the root of a project.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-project-root",
+		"pushedAt": "2026-08-21T07:02:14Z"
 	},
 	{
 		"name": "mcvs-golang-action-taskfile-remote-url-ref-updater",
 		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action Taskfile REMOTE_URL_REF updater. Action that updates the REMOTE_URL_REF in a Taskfile through Pull Requests to prevent that one will forget to update the MCVS-golang-action in a Taskfile once that one has been updated using Dependabot.",
 		"url": "https://github.com/schubergphilis/mcvs-golang-action-taskfile-remote-url-ref-updater",
-		"pushedAt": "2026-08-14T08:03:39Z"
+		"pushedAt": "2026-08-20T07:56:24Z"
+	},
+	{
+		"name": "mcvs-integrationtest-services",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Integrationtest Services provides Docker images that can be used for component, integration and end-to-end (E2E) testing.",
+		"url": "https://github.com/schubergphilis/mcvs-integrationtest-services",
+		"pushedAt": "2026-08-20T07:01:52Z"
+	},
+	{
+		"name": "mdd",
+		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
+		"url": "https://github.com/schubergphilis/mdd",
+		"pushedAt": "2026-08-18T04:34:51Z"
+	},
+	{
+		"name": "sqe",
+		"description": "Sovereign Query Engine",
+		"url": "https://github.com/schubergphilis/sqe",
+		"pushedAt": "2026-08-17T15:43:20Z"
 	},
 	{
 		"name": "mcvs-dotnet-action",
@@ -60,12 +78,6 @@
 		"pushedAt": "2026-08-12T12:13:47Z"
 	},
 	{
-		"name": "claude-docker",
-		"description": "Hardened Docker container for running Claude Code",
-		"url": "https://github.com/schubergphilis/claude-docker",
-		"pushedAt": "2026-08-11T23:54:56Z"
-	},
-	{
 		"name": "agents.md",
 		"description": "Schuberg Philis collections of agents.md for guiding coding agents",
 		"url": "https://github.com/schubergphilis/agents.md",
@@ -84,12 +96,6 @@
 		"pushedAt": "2026-07-31T09:10:38Z"
 	},
 	{
-		"name": "mcaf-github-workflows",
-		"description": "Repository for centralized reusable Github workflows ",
-		"url": "https://github.com/schubergphilis/mcaf-github-workflows",
-		"pushedAt": "2026-07-24T02:45:23Z"
-	},
-	{
 		"name": "datadog_slo_overrides_cli",
 		"description": "CLI to set overrides idempotently for multiple SLO's",
 		"url": "https://github.com/schubergphilis/datadog_slo_overrides_cli",
@@ -100,12 +106,6 @@
 		"description": "GitLab Merge Request 4-Eyes Approval Audit Tool",
 		"url": "https://github.com/schubergphilis/gitlab-mr-check",
 		"pushedAt": "2026-07-14T11:26:52Z"
-	},
-	{
-		"name": "sqe",
-		"description": "Sovereign Query Engine",
-		"url": "https://github.com/schubergphilis/sqe",
-		"pushedAt": "2026-07-12T20:30:06Z"
 	},
 	{
 		"name": "awsfindingsmanagerlib",
