@@ -1,45 +1,111 @@
 [
 	{
-		"name": "claude-docker",
-		"description": "Hardened Docker container for running Claude Code",
-		"url": "https://github.com/schubergphilis/claude-docker",
-		"pushedAt": "2026-10-11T17:27:22Z"
+		"name": "afas_mcp_server",
+		"description": "MCP server that exposes AFAS Profit GetConnectors, UpdateConnectors and metainfo to AI agents. Read-only by default.",
+		"url": "https://github.com/schubergphilis/afas_mcp_server",
+		"pushedAt": "2026-10-19T04:34:06Z"
 	},
 	{
 		"name": "mcvs-dotnet-action",
 		"description": "Mission Critical Vulnerability Scanner (MCVS) .NET Action. Create .NET code without high and critical vulnerabilities.",
 		"url": "https://github.com/schubergphilis/mcvs-dotnet-action",
-		"pushedAt": "2026-10-10T21:45:25Z"
+		"pushedAt": "2026-10-18T10:27:46Z"
 	},
 	{
-		"name": "graphql-linter",
-		"description": "Lint and enforce GraphQL schemas with federation support.",
-		"url": "https://github.com/schubergphilis/graphql-linter",
-		"pushedAt": "2026-10-10T19:19:17Z"
+		"name": "mcvs-node-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Node Action. Create Node code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-node-action",
+		"pushedAt": "2026-10-17T07:12:51Z"
+	},
+	{
+		"name": "mcvs-golang-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-golang-action",
+		"pushedAt": "2026-10-16T20:03:26Z"
+	},
+	{
+		"name": "claude-docker",
+		"description": "Hardened Docker container for running Claude Code",
+		"url": "https://github.com/schubergphilis/claude-docker",
+		"pushedAt": "2026-10-16T14:24:28Z"
 	},
 	{
 		"name": "mcvs-integrationtest-services",
 		"description": "Mission Critical Vulnerability Scanner (MCVS) Integrationtest Services provides Docker images that can be used for component, integration and end-to-end (E2E) testing.",
 		"url": "https://github.com/schubergphilis/mcvs-integrationtest-services",
-		"pushedAt": "2026-10-10T17:15:22Z"
-	},
-	{
-		"name": "mcvs-general-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) General Action. From linting to scanning.",
-		"url": "https://github.com/schubergphilis/mcvs-general-action",
-		"pushedAt": "2026-10-10T16:56:52Z"
+		"pushedAt": "2026-10-16T13:36:30Z"
 	},
 	{
 		"name": "mcvs-golang-project-root",
 		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Project Root contains a Golang snippet that determines the root of a project.",
 		"url": "https://github.com/schubergphilis/mcvs-golang-project-root",
-		"pushedAt": "2026-10-10T16:56:43Z"
+		"pushedAt": "2026-10-16T13:08:53Z"
 	},
 	{
 		"name": "mcvs-golang-action-taskfile-remote-url-ref-updater",
 		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action Taskfile REMOTE_URL_REF updater. Action that updates the REMOTE_URL_REF in a Taskfile through Pull Requests to prevent that one will forget to update the MCVS-golang-action in a Taskfile once that one has been updated using Dependabot.",
 		"url": "https://github.com/schubergphilis/mcvs-golang-action-taskfile-remote-url-ref-updater",
-		"pushedAt": "2026-10-10T16:56:41Z"
+		"pushedAt": "2026-10-16T12:59:47Z"
+	},
+	{
+		"name": "graphql-linter",
+		"description": "Lint and enforce GraphQL schemas with federation support.",
+		"url": "https://github.com/schubergphilis/graphql-linter",
+		"pushedAt": "2026-10-16T12:41:27Z"
+	},
+	{
+		"name": "mcvs-python-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Python Action. Create Python code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-python-action",
+		"pushedAt": "2026-10-16T12:33:19Z"
+	},
+	{
+		"name": "mcvs-php-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) PHP Action. Create PHP code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-php-action",
+		"pushedAt": "2026-10-15T05:13:42Z"
+	},
+	{
+		"name": "mdd",
+		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
+		"url": "https://github.com/schubergphilis/mdd",
+		"pushedAt": "2026-10-14T15:47:06Z"
+	},
+	{
+		"name": "ai-harness-test",
+		"description": "Testing AI harnesses en agentic runtimes",
+		"url": "https://github.com/schubergphilis/ai-harness-test",
+		"pushedAt": "2026-10-13T19:51:55Z"
+	},
+	{
+		"name": "sqe",
+		"description": "Sovereign Query Engine",
+		"url": "https://github.com/schubergphilis/sqe",
+		"pushedAt": "2026-10-13T13:28:47Z"
+	},
+	{
+		"name": "paleofuturistic_python",
+		"description": "The Python development workflow your past self had always hoped for is finally here!",
+		"url": "https://github.com/schubergphilis/paleofuturistic_python",
+		"pushedAt": "2026-10-13T13:15:17Z"
+	},
+	{
+		"name": "mcvs-docker-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Docker Action. Build a lean docker image without high and critical vulnerabilities and push it to the GitHub packages.",
+		"url": "https://github.com/schubergphilis/mcvs-docker-action",
+		"pushedAt": "2026-10-13T11:38:23Z"
+	},
+	{
+		"name": "mcvs-general-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) General Action. From linting to scanning.",
+		"url": "https://github.com/schubergphilis/mcvs-general-action",
+		"pushedAt": "2026-10-12T18:21:35Z"
+	},
+	{
+		"name": "mcvs-rust-action",
+		"description": "Mission Critical Vulnerability Scanner (MCVS) Rust Action. Create Rust code without high and critical vulnerabilities.",
+		"url": "https://github.com/schubergphilis/mcvs-rust-action",
+		"pushedAt": "2026-10-12T05:56:05Z"
 	},
 	{
 		"name": "mcvs-pr-validation-action",
@@ -48,76 +114,16 @@
 		"pushedAt": "2026-10-10T16:20:19Z"
 	},
 	{
-		"name": "mcvs-golang-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Golang Action. Create Golang code without high and critical vulnerabilities.",
-		"url": "https://github.com/schubergphilis/mcvs-golang-action",
-		"pushedAt": "2026-10-10T16:20:17Z"
-	},
-	{
-		"name": "mcvs-docker-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Docker Action. Build a lean docker image without high and critical vulnerabilities and push it to the GitHub packages.",
-		"url": "https://github.com/schubergphilis/mcvs-docker-action",
-		"pushedAt": "2026-10-10T16:20:14Z"
-	},
-	{
-		"name": "mcvs-node-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Node Action. Create Node code without high and critical vulnerabilities.",
-		"url": "https://github.com/schubergphilis/mcvs-node-action",
-		"pushedAt": "2026-10-10T16:20:14Z"
-	},
-	{
-		"name": "mcvs-python-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Python Action. Create Python code without high and critical vulnerabilities.",
-		"url": "https://github.com/schubergphilis/mcvs-python-action",
-		"pushedAt": "2026-10-10T16:20:13Z"
-	},
-	{
-		"name": "mcvs-rust-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) Rust Action. Create Rust code without high and critical vulnerabilities.",
-		"url": "https://github.com/schubergphilis/mcvs-rust-action",
-		"pushedAt": "2026-10-10T14:56:10Z"
-	},
-	{
-		"name": "mcvs-php-action",
-		"description": "Mission Critical Vulnerability Scanner (MCVS) PHP Action. Create PHP code without high and critical vulnerabilities.",
-		"url": "https://github.com/schubergphilis/mcvs-php-action",
-		"pushedAt": "2026-10-10T14:48:33Z"
-	},
-	{
 		"name": "grawsp",
 		"description": "A command line application to assist engineers manage credentials in an AWS landing zone.",
 		"url": "https://github.com/schubergphilis/grawsp",
 		"pushedAt": "2026-10-10T14:08:30Z"
 	},
 	{
-		"name": "ai-test-harness",
-		"description": "Testing AI harnesses en agentic runtimes",
-		"url": "https://github.com/schubergphilis/ai-test-harness",
-		"pushedAt": "2026-10-09T19:29:29Z"
-	},
-	{
 		"name": "agents.md",
 		"description": "Schuberg Philis collections of agents.md for guiding coding agents",
 		"url": "https://github.com/schubergphilis/agents.md",
 		"pushedAt": "2026-10-06T19:33:17Z"
-	},
-	{
-		"name": "mdd",
-		"description": "MDD Does Docs - bi-directional sync from markdown to confluence and sharepoint",
-		"url": "https://github.com/schubergphilis/mdd",
-		"pushedAt": "2026-10-06T04:34:07Z"
-	},
-	{
-		"name": "afas_mcp_server",
-		"description": "MCP server that exposes AFAS Profit GetConnectors, UpdateConnectors and metainfo to AI agents. Read-only by default.",
-		"url": "https://github.com/schubergphilis/afas_mcp_server",
-		"pushedAt": "2026-10-05T12:46:37Z"
-	},
-	{
-		"name": "sqe",
-		"description": "Sovereign Query Engine",
-		"url": "https://github.com/schubergphilis/sqe",
-		"pushedAt": "2026-10-01T11:14:59Z"
 	},
 	{
 		"name": "datadog_slo_overrides_cli",
@@ -138,22 +144,10 @@
 		"pushedAt": "2026-09-23T09:18:54Z"
 	},
 	{
-		"name": "chef-guard",
-		"description": "Chef-Guard protects your Chef server from untested and uncommitted cookbooks",
-		"url": "https://github.com/schubergphilis/chef-guard",
-		"pushedAt": "2026-08-12T12:13:47Z"
-	},
-	{
 		"name": "gitlab-mr-check",
 		"description": "GitLab Merge Request 4-Eyes Approval Audit Tool",
 		"url": "https://github.com/schubergphilis/gitlab-mr-check",
 		"pushedAt": "2026-07-14T11:26:52Z"
-	},
-	{
-		"name": "awsfindingsmanagerlib",
-		"description": "",
-		"url": "https://github.com/schubergphilis/awsfindingsmanagerlib",
-		"pushedAt": "2026-06-25T08:58:32Z"
 	},
 	{
 		"name": "terraform-aws-mcaf-transfer",
@@ -166,12 +160,6 @@
 		"description": "Library interacting with lastpass.",
 		"url": "https://github.com/schubergphilis/lastpasslib",
 		"pushedAt": "2026-05-26T15:00:09Z"
-	},
-	{
-		"name": "paleofuturistic_python",
-		"description": "The Python development workflow your past self had always hoped for is finally here!",
-		"url": "https://github.com/schubergphilis/paleofuturistic_python",
-		"pushedAt": "2026-05-22T07:36:36Z"
 	},
 	{
 		"name": "azureenergylabelerlib",
